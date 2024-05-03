@@ -1,0 +1,126 @@
+/*define o estilo do corpo do nosso HTML*/
+body{
+    font: Arial, Helvetica, sans-serif; /*fonte do texto no body*/
+    margin: 0; /*remover as margens do Body*/
+    padding: 0; /*remover o preenchimento do body*/
+}
+/*Estilo para o header, titulos*/
+header{
+    text-align: center; /*alinha todo conteúdoao centro do página*/
+    padding: 20px; /*aqui estamos adicionanto 20px de preenchimento*/
+    background-color: black; /*cor de fundo do header*/
+    color: #ccc; /*definimos a cor do texto*/
+}
+
+/*aqui estou falando que toda tag h1 dentro do header ira ganhar esse estilo*/
+header h1{
+font-size: 39px; /*define o tamanho da fonte*/
+color: orange;
+}
+
+/*tudo que estiver dentro do footer*/
+footer{
+    text-align: center;
+    padding: 10px;
+    background-color: black;
+}
+
+/*declarei a classe conforme o nome que eu coloquei no html, para declarar basta colocar um ponto . */
+.social-media img{
+    width: 30px; /*width é para mexer na largura da imagem*/
+    height: 30px; /* é para mexer na altura da imagem*/
+    margin: 5px;
+}
+
+p{
+    color: grey;
+}
+
+/*altera a cor ao passar o mouse por cima*/
+p:hover{
+    color:#ccc;
+}
+
+main{
+    background-color: #141414;
+}
+
+div.product{
+    text-align: center;
+    max-width: 300px;/* largura maxima*/
+    padding: 20px;
+    border: 1px solid #ccc; /*define a borda, tamanho da borda e a cor dela*/
+    border-radius: 10px; /*colocar cantos arredondados nas bordas*/
+    background-color: #141414;
+}
+
+/*para chamar um ID, e uso o #, jogo da velha/sustenido*/
+#Produtos{
+    display: flex; /*define um layout flexivel*/
+    flex-wrap: wrap; /*os objetos devem quebrar as linhas*/
+    justify-content: center; /*os itens vao ficar no centro e no gap eu defino os espaçamentos*/
+    gap: 20px; /*define o espaçamento entre o itens*/
+    background-color: #141414;
+}
+
+img.produto{
+    max-width: 300px;
+    height: 300px;
+    background-color: orange;
+    border-radius: 10px;
+}
+
+button{
+    color: rgb(10, 9, 9);
+    background-color: orange;
+    border-radius: 6px;
+    width: 100px;
+}
+
+button:hover{
+    color: azure;
+}
+
+#Beneficios{
+    text-align: center;
+    padding: 20px;
+    background-color: orange;
+}
+
+li{
+    list-style: none; /*aqui é para sumir os pontinhos que são criados pelos li - listas*/
+}
+
+h2.titulo2{
+    color: #141414;
+}
+
+.textoD{
+    margin-bottom: 5px; /*margem de baixo*/
+}
+
+#Depoimentos{
+    text-align:center;
+    padding: 3px;
+    background-color: #ccc;
+}
+
+form{
+    display: flex;
+    flex-direction: column; /*qual a direção da coluna*/
+    max-width: 400px;
+    margin: 0px;
+}
+
+#Contato{
+    text-align: center;
+    background-color: #141414;
+    color: #ccc;
+}
+
+form input, form textarea{
+    margin bottom: 10px;
+    padding: 10px;
+}
+
+
